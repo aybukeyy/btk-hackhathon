@@ -85,7 +85,7 @@ Bu projenin amacı, bireylerin kendi öğrenme hızlarına göre kişiselleştir
 <details>
 <summary>🧭 <strong>Miro Link</strong></summary>
 
-[Miro Linki Buraya Eklenecek]([https://miro.com/](https://miro.com/app/board/uXjVJZFdoaY=/?share_link_id=237268478030)) <!-- Gerçek link varsa buraya koy -->
+ [ https://miro.com/app/board/uXjVJZFdoaY=/?share_link_id=237268478030 ]<!-- Gerçek link varsa buraya koy -->
 
 </details>
 
