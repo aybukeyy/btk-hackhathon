@@ -119,7 +119,8 @@ def save_list_data(list_name, data, directory=LISTS_DIR):
 
 
 def gemini_chat_response(user_message, topic_id):
-    prompt_template = topic_prompts.get(topic_id)
+    # 'prompts' yerine doğru değişken olan 'prompts_data' kullanılmalı.
+    prompt_template = prompts_data.get(topic_id)
     if not prompt_template:
         print(f"HATA: teacher_prompts.json dosyasında '{topic_id}' için prompt bulunamadı.")
         return "Üzgünüm, bu konu hakkında şu anda sana yardımcı olamıyorum."
@@ -135,7 +136,8 @@ def gemini_chat_response(user_message, topic_id):
 
 
 def ensure_english(text):
-    prompt_template = topic_prompts.get("ensure_english_prompt")
+    # Düzeltilmiş kısım: prompts_data sözlüğü kullanılmalı
+    prompt_template = prompts_data.get("ensure_english_prompt")
 
     if not prompt_template:
         print("HATA: 'ensure_english_prompt' anahtarı JSON dosyasında bulunamadı.")
@@ -157,7 +159,8 @@ def gemini_smart_translate(text_to_translate, target_level, is_academic):
     else:
         prompt_key = "smart_translate_standard_prompt"
 
-    prompt_template = topic_prompts.get(prompt_key)
+    # Hatanın düzeltildiği kısım: topic_prompts yerine prompts_data kullanılıyor
+    prompt_template = prompts_data.get(prompt_key)
 
     if not prompt_template:
         error_message = f"HATA: '{prompt_key}' anahtarı JSON dosyasında bulunamadı."
@@ -705,7 +708,8 @@ def generate_content():
         if not prompt_key:
             return jsonify({"status": "error", "message": "Geçersiz içerik tipi."}), 400
 
-        prompt_template = topic_prompts.get(prompt_key)
+        # Düzeltilmiş kısım: prompts_data sözlüğü kullanılmalı
+        prompt_template = prompts_data.get(prompt_key)
         if not prompt_template:
             return jsonify({"status": "error", "message": f"'{prompt_key}' prompt'u JSON dosyasında bulunamadı."}), 500
 
@@ -717,13 +721,6 @@ def generate_content():
         final_english_text = ensure_english(initial_generated_text)
 
         return jsonify({"status": "success", "generated_text": final_english_text})
-
-    except exceptions.ResourceExhausted as e:
-        print(f"Gemini Kota Hatası: {e}")
-        return jsonify({
-            "status": "error",
-            "message": "Günlük Gemini API kullanım limitiniz dolmuştur. Lütfen yarın tekrar deneyin veya ücretli plana geçin."
-        }), 429
 
     except Exception as e:
         print(f"İçerik üretilirken hata: {e}")
