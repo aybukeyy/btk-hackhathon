@@ -114,12 +114,7 @@ Proje kapsamı şu bileşenleri içerir:
 - Hazır kelime listelerini öğrencilerime gösterebilmek istiyorum ki onların evde de tekrar yapmalarını sağlayabileyim.  
 - AI destekli içeriklerle ders planı hazırlamak istiyorum ki öğrencilerime kişiselleştirilmiş alıştırmalar sunabileyim.  
 
-####  **Ebeveyn (Opsiyonel Kullanıcı Rolü)**
-
-- Çocuğumun öğrenme sürecini görmek istiyorum ki hangi konuda zorlandığını fark edebileyim.  
-- Çocuğuma uygun içerikleri filtreleyebilmek istiyorum ki yaşına ve seviyesine uygun çalışsın.  
-
-#### 🛠 **Sistem Yöneticisi / Geliştirici**
+#### **Sistem Yöneticisi / Geliştirici**
 
 - Platformdaki kullanıcıları ve içerikleri yönetebilmek istiyorum ki sistemin güvenliğini ve sürekliliğini sağlayabileyim.  
 - Yeni modüller ekleyip güncelleyebilmek istiyorum ki kullanıcı deneyimini sürekli iyileştirebileyim.  
