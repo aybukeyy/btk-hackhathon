@@ -11,7 +11,23 @@
 <details>
 <summary> <strong>Proje Tanımı</strong></summary>
 
-Lainguage, kullanıcıların İngilizce öğrenmesini destekleyen etkileşimli bir eğitim platformudur. Platform; seviye bazlı içerikler, yapay zekâ destekli öğretmen ile konuşma pratiği, kişisel kelime koleksiyonları ve test çözümleri gibi modüllerle zenginleştirilmiştir.
+inguage, bireylerin İngilizce dil becerilerini geliştirmelerini destekleyen, etkileşimli ve yapay zekâ destekli bir dil öğrenme platformudur. Uygulama, kullanıcıların kişiselleştirilmiş kelime listeleri oluşturmasına, seviye bazlı içeriklerle öğrenmesine ve yapay zekâ öğretmeni ile birebir konuşma pratiği yapmasına olanak tanır. Platformun temel hedefi; kullanıcıya aktif, katılımcı ve kendi hızına uygun bir dil öğrenme deneyimi sunmaktır.
+
+Lainguage, geleneksel öğrenme araçlarının ötesine geçerek öğreneni merkeze alan bir yapı sunar. Hem başlangıç düzeyinde olanlar hem de ileri seviyede kendini geliştirmek isteyen kullanıcılar için çeşitli araçlar barındırır. Uygulamada bulunan modüller, CEFR (Avrupa Dilleri Ortak Çerçeve Programı) standartlarına göre yapılandırılmıştır.
+
+Kullanıcılar:
+
+Hazır tematik kelime listelerinden faydalanabilir ya da kendi koleksiyonlarını oluşturabilir,
+
+Seçtikleri seviyeye göre (A1-C2) dil bilgisi, kelime ve konuşma içeriklerine ulaşabilir,
+
+AI destekli "Teacher" modülü sayesinde seçtikleri konuda İngilizce-Türkçe konuşma pratiği yapabilir,
+
+Paragraf veya karşılıklı konuşma metinleri üreten "Generator" modülüyle içerik oluşturabilir,
+
+"Quiz" modülü ile öğrendiklerini test edebilir ve gelişimini takip edebilir.
+
+Platform, öğrenme sürecini hem eğlenceli hem de verimli hale getirirken; kullanıcıya özgü içerik sunumu, çeviri destekleri, seviye takibi ve yapay zekâ ile etkileşim gibi özellikleriyle dijital dil eğitimi alanında bütüncül bir çözüm sunar.
 
 </details>
 
@@ -31,56 +47,104 @@ Lainguage, kullanıcıların İngilizce öğrenmesini destekleyen etkileşimli b
 <details>
 <summary> <strong>Proje Amacı ve Kapsamı</strong></summary>
 
-Bu projenin amacı, bireylerin kendi öğrenme hızlarına göre kişiselleştirilmiş, interaktif ve seviye bazlı İngilizce eğitimi alabilecekleri bir platform sunmaktır. Kapsam olarak;
+Bu projenin temel amacı, bireylerin İngilizce dil becerilerini kendi öğrenme hızlarına göre geliştirebilecekleri, etkileşimli ve yapay zekâ destekli bir dijital öğrenme platformu sunmaktır. Sistem, kullanıcı merkezli bir yaklaşımla hem bireysel öğrenme deneyimini özelleştirir hem de farklı seviyelere ve ihtiyaçlara uygun içerik üretimi sağlar.
 
-- Kelime öğrenimi,
-- Dil bilgisi pratiği,
-- Konuşma geliştirme,
-- Sınav hazırlığı,
-- AI destekli öğretici ve içerik üretimi gibi unsurları içermektedir.
+Proje kapsamı şu bileşenleri içerir:
+
+- Kelime Öğrenimi: Kullanıcılar hazır tematik listelerden veya kendi oluşturdukları listelerden faydalanarak hedef kelime gruplarını öğrenebilir.
+
+- Dil Bilgisi (Grammar) Pratiği: Gramer yapıları, zamanlar, bağlaçlar ve soru kalıpları gibi temel dil bilgisi öğeleri, öğretici modüllerle desteklenir.
+
+- Konuşma Geliştirme: AI öğretmen ile yapılan çift yönlü diyaloglar, sesli ve yazılı pratik imkânı sunarak konuşma becerilerinin gelişimini destekler.
+
+- Okuma ve Anlama (Reading & Comprehension): Kullanıcının seviyesine uygun otomatik paragraf ve diyalog üretimi yapılır; Türkçe-İngilizce çeviriler ile anlam derinleştirilir.
+
+- Sınav Hazırlığı: CEFR uyumlu quiz modülü sayesinde kullanıcılar kelime tekrarı ve boşluk doldurma testleri ile hazırlık yapabilir.
+
+- İçerik Üretimi: Yapay zekâ destekli sistem, kullanıcının seviyesine ve seçtiği konuya uygun özgün paragraflar ve konuşma metinleri üretir.
+
+- Kişiselleştirme: Kullanıcılar kendi koleksiyonlarını oluşturabilir, seviyelerini belirleyebilir ve çalışma tarzlarını bu doğrultuda şekillendirebilir.
+
+- Görsel ve Tematik Uyum: Renkli, sade ve kullanıcı dostu arayüz ile görsel destekli öğrenme deneyimi sağlanır.
+
+- Çeviri ve Anlamlandırma: İki dilli (TR-EN) çeviri desteğiyle kullanıcı, metinleri hem anlamlandırır hem de anadil karşılıklarını öğrenir.
 
 </details>
 
 <details>
-<summary> <strong>Kullanıcı Rolleri</strong></summary>
+<summary>👥 <strong>Kullanıcı Rolleri</strong></summary>
 
-- **Öğrenci (Genel Kullanıcı)**: Kayıt olur, koleksiyon oluşturur, öğretici içeriklere ulaşır, quiz çözer.
-- **Yapay Zekâ Öğretmen**: Kullanıcılara seviye ve konuya göre rehberlik eder, interaktif konuşma pratiği yapar.
-- **Sistem Yöneticisi (Admin)**: Liste ve içerik yönetimi, hata izleme ve platform kontrolü yapar.
+| Rol               | Açıklama                                                                 |
+|--------------------|--------------------------------------------------------------------------|
+| **Öğrenci**         | Sisteme giriş yaparak kelime koleksiyonu oluşturur, içeriklerle çalışır, quiz çözer ve AI öğretmenle pratik yapar. |
+| **AI Öğretmen**     | Kullanıcının seçtiği konuya ve seviyeye göre İngilizce pratik yaptırır, açıklamalar sunar ve yönlendirici cevaplar üretir. |
+| **Sistem Yöneticisi** | Kullanıcı ve içerik yönetimini sağlar, genel sistem kontrolünü ve performans takibini yürütür. |
+| **Geliştirici**      | Yazılım altyapısını geliştirir, yapay zekâ ve veri akış entegrasyonlarını uygular. |
 
 </details>
 
 <details>
-<summary> <strong>Hedef Kitle</strong></summary>
+<summary>🎯 <strong>Hedef Kitle</strong></summary>
 
-- İngilizce öğrenmeye yeni başlayanlar
-- Dil seviyesini geliştirmek isteyen öğrenciler
-- CEFR temelli öğrenim sistemiyle ilerlemek isteyen bireyler
-- İngilizce öğretmenleri tarafından ödev ya da sınıf içi takviye olarak kullanılabilecek kişiler 
+| **Kitle** | **Açıklama** |
+|-----------|--------------|
+| **İngilizce Öğrenmeye Yeni Başlayanlar** | Temel kelime bilgisi, telaffuz ve günlük ifadelerle sıfırdan öğrenme sürecine başlayan bireyler. |
+| **Orta ve İleri Seviye Öğrenciler** | Seviye bazlı içeriklerle dil bilgisini derinleştirmek ve konuşma pratiği yapmak isteyen kullanıcılar. |
+| **Dil Sınavlarına Hazırlananlar** | CEFR (A1-C2) seviyelerine uygun quiz ve içeriklerle sınav pratiği yapmak isteyen öğrenciler. |
+| **Öğretmenler ve Eğitmenler** | Hazır listeler ve AI destekli araçlarla sınıf içi veya bireysel eğitim sürecine dijital destek arayan öğretmenler. |
+| **Kendi Kendine Öğrenen Bireyler** | Günlük kelime tekrarı, içerik üretimi ve konuşma pratiğiyle bireysel olarak dil öğrenmeyi tercih eden kişiler. |
+| **Ebeveynler / Genç Öğrenciler** | Öğrenme sürecine çocuklarını dahil etmek isteyen ebeveynler veya basit arayüz ile öğrenmeye uygun genç kullanıcılar. |
 
 </details>
 
 <details>
 <summary> <strong>Kullanıcı Senaryoları (User Story)</strong></summary>
 
-1. **Yeni Başlayan Bir Öğrenci Olarak**, İngilizce temellerini öğrenmek için giriş seviyesi içerikleri görmek istiyorum, böylece sıfırdan başlayabilirim.
-2. **Bir Öğrenci Olarak**, kendi kelime listemi oluşturmak ve bu liste üzerinden quiz çözmek istiyorum, böylece kelimeleri daha iyi öğrenebilirim.
-3. **İleri Seviye Bir Kullanıcı Olarak**, deyimsel ifadeler içeren interaktif diyaloglar ile pratik yapmak istiyorum, böylece konuşma yeteneğimi geliştirebilirim.
-4. **Bir Kullanıcı Olarak**, AI öğretmenle konuşarak İngilizcemi geliştirmek istiyorum, çünkü konuşarak pratik yapma ihtiyacım var.
-5. **Bir Öğrenci Olarak**, kendi seviyeme göre paragraf veya diyalog içeriği oluşturmak istiyorum, böylece hedefime uygun içerikle çalışabilirim.
+####  **Öğrenci (Primary User)**
+
+- Kendi seviyeme uygun içerik ve kelimelerle çalışmak istiyorum ki daha verimli öğrenebileyim.  
+- AI öğretmen ile konuşma pratiği yapmak istiyorum ki öğrendiğim kelimeleri doğru kullanmayı öğrenebileyim.  
+- Kendi kelime listelerimi oluşturmak ve bu listelerle quiz çözmek istiyorum ki kelimeleri tekrar ederek pekiştirebileyim.  
+- Sistem bana anlamadığım yerlerde Türkçe açıklama sunabilsin istiyorum ki öğrenme sürecim aksamadan devam etsin.  
+- İçeriklerin zorluk seviyesini kendim seçebilmek istiyorum ki gelişimimi kontrol edebileyim.  
+
+####  **Öğretmen / Eğitmen**
+
+- Hazır kelime listelerini öğrencilerime gösterebilmek istiyorum ki onların evde de tekrar yapmalarını sağlayabileyim.  
+- AI destekli içeriklerle ders planı hazırlamak istiyorum ki öğrencilerime kişiselleştirilmiş alıştırmalar sunabileyim.  
+
+####  **Ebeveyn (Opsiyonel Kullanıcı Rolü)**
+
+- Çocuğumun öğrenme sürecini görmek istiyorum ki hangi konuda zorlandığını fark edebileyim.  
+- Çocuğuma uygun içerikleri filtreleyebilmek istiyorum ki yaşına ve seviyesine uygun çalışsın.  
+
+#### 🛠 **Sistem Yöneticisi / Geliştirici**
+
+- Platformdaki kullanıcıları ve içerikleri yönetebilmek istiyorum ki sistemin güvenliğini ve sürekliliğini sağlayabileyim.  
+- Yeni modüller ekleyip güncelleyebilmek istiyorum ki kullanıcı deneyimini sürekli iyileştirebileyim.  
 
 </details>
+
 
 <details>
 <summary>🛠️ <strong>Kullanılan Teknolojiler</strong></summary>
 
-- HTML / CSS / TypeScript  
-- LLM (OpenAI/Gemini API)  
-- AI Agent Mantığı  
-- JSON Veri Yapıları  
-- GitHub
+| **Teknoloji / Araç** | **Açıklama** |
+|----------------------|--------------|
+| **HTML / CSS / JavaScript** | Platformun kullanıcı arayüzü bu dillerle geliştirildi. Modern, sade ve mobil uyumlu tasarım sağlandı. |
+| **Tailwind CSS** | UI bileşenlerinde hızlı ve tutarlı stil uygulamaları için kullanıldı. |
+| **Gemini API** | AI destekli öğretmen (chatbot) ve içerik üretim modüllerinde doğal dil işleme desteği sağlamak için kullanıldı. |
+| **LLM Agent Mantığı** | Kullanıcı ile etkileşime giren özel görevli yapay zekâ ajanları (örn. öğretmen agent, paragraf agent) oluşturuldu. |
+| **Flask (Python)** | Backend işlemleri (API, kullanıcı işlemleri, içerik servisleri) için mikro web çatısı olarak kullanıldı. |
+| **Hash Tabanlı Şifreleme** | Kullanıcı bilgilerini güvenli şekilde saklamak amacıyla `password hashing` (örn. `werkzeug.security`, `bcrypt`) gibi algoritmalarla şifreleme sağlandı. |
+| **JSON** | Kullanıcı koleksiyonlarının ve hazır listelerin saklanması ve yönetimi için veri formatı olarak kullanıldı. |
+| **Git & GitHub** | Sürüm kontrolü ve takım içi işbirliği için kullanıldı. Proje yönetimi ve kod depolama GitHub üzerinden yürütüldü. |
+| **Miro** | Sprint yönetimi, kullanıcı akışı ve görev dağılımları için dijital kanban panosu olarak kullanıldı. |
+| **Markdown (.md)** | Proje dokümantasyonu ve `README.md` içerikleri için kullanıldı. |
+| **CEFR Seviyeleri (A1–C2)** | Dil öğreniminde Avrupa Ortak Dil Çerçevesi seviyelerine uygun içerik üretimi sağlandı. |
 
 </details>
+
 
 <details>
 <summary>🧭 <strong>Miro Link</strong></summary>
@@ -88,12 +152,30 @@ Bu projenin amacı, bireylerin kendi öğrenme hızlarına göre kişiselleştir
  [ https://miro.com/app/board/uXjVJZFdoaY=/?share_link_id=237268478030 ]<!-- Gerçek link varsa buraya koy -->
 
 </details>
-
 <details>
-<summary>📌 <strong>Product Backlog</strong></summary>
+<summary>🗂️ <strong>Product Backlog</strong></summary>
 
-- ✅ Sprint 1: Arayüz iskeleti, liste sistemi, quiz sistemi  
-- ✅ Sprint 2: AI öğretmen, içerik üretici, konuşma pratiği  
-- ⏳ Sprint 3: Sesli telaffuz, PDF dışa aktarım, seviye ilerleme takibi  
+Lainguage, kullanıcıların seviye bazlı, kişiselleştirilmiş ve AI destekli İngilizce eğitimi alabilecekleri bir platformdur. Bu Product Backlog; projenin temel yapı taşlarını, kullanıcı ihtiyaçlarını ve geliştirilecek modülleri Scrum metodolojisine uygun biçimde listelemektedir.
+
+#### 📋 Product Backlog Tablosu
+
+| **ID**   | **İş Kalemi**                                           | **Öncelik** | **Açıklama** |
+|----------|----------------------------------------------------------|-------------|--------------|
+| PB-01    | Proje fikrinin netleştirilmesi                           | Yüksek      | AI destekli İngilizce öğrenme platformu olarak "Lainguage" projesi tanımlandı. |
+| PB-02    | Scrum rolleri atanması                                   | Yüksek      | Scrum Master, Product Owner ve takım üyeleri görev dağılımı yaptı. |
+| PB-03    | Miro üzerinden Sprint planlaması yapılması               | Yüksek      | Görevler sprint backlog'a aktarıldı ve takvim belirlendi. |
+| PB-04    | Product Backlog’un hazırlanması                          | Yüksek      | Tüm iş kalemleri sıralı ve öncelikli şekilde tanımlandı. |
+| PB-05    | Kullanıcı rollerinin belirlenmesi                        | Yüksek      | Öğrenci, AI öğretmen, sistem yöneticisi gibi roller netleştirildi. |
+| PB-06    | Kullanıcı senaryolarının (User Story) yazılması          | Yüksek      | Her rol için kullanım senaryoları ve ihtiyaçları oluşturuldu. |
+| PB-07    | Kullanılacak teknolojilerin seçilmesi                    | Yüksek      | React, Flask, Tailwind, Gemini API, JSON gibi teknolojiler seçildi. |
+| PB-08    | Ana sayfa ve modül yönlendirmelerinin yapılması          | Orta        | Ana sayfadan Collections, Lain Tools, Quiz, PDF modüllerine geçiş sağlandı. |
+| PB-09    | Koleksiyon yönetim sisteminin geliştirilmesi             | Yüksek      | Hazır ve kişisel kelime listelerinin oluşturulması ve düzenlenmesi sağlandı. |
+| PB-10    | AI öğretmen modülünün entegrasyonu                       | Yüksek      | Öğrencinin seçtiği konu ve seviyeye göre etkileşimli pratik sistemi geliştirildi. |
+| PB-11    | İçerik üretici modülünün kurulması                        | Orta        | Kullanıcının liste ve seviyeye göre paragraf/karşılıklı metin üretmesi sağlandı. |
+| PB-12    | Quiz modülünün geliştirilmesi                            | Orta        | Kelime tekrarı ve boşluk doldurma testleri ile skor ve cevap anahtarı görüntülendi. |
+| PB-13    | Seviye sistemi (A1–C2) uygulanması                        | Orta        | Tüm içeriklerin CEFR dil seviyelerine göre sınıflandırılması sağlandı. |
+| PB-14    | Çift dilli çeviri sistemi kurulması                      | Orta        | İçeriklerin Türkçe-İngilizce olarak görüntülenmesi sağlandı. |
+| PB-15    | Hash tabanlı kullanıcı şifreleme sistemi                 | Yüksek      | Kullanıcı güvenliği için parola şifreleme sistemi geliştirildi (Flask backend). |
 
 </details>
+
