@@ -72,7 +72,7 @@ Proje kapsamı şu bileşenleri içerir:
 </details>
 
 <details>
-<summary>👥 <strong>Kullanıcı Rolleri</strong></summary>
+<summary> <strong>Kullanıcı Rolleri</strong></summary>
 
 | Rol               | Açıklama                                                                 |
 |--------------------|--------------------------------------------------------------------------|
@@ -84,7 +84,7 @@ Proje kapsamı şu bileşenleri içerir:
 </details>
 
 <details>
-<summary>🎯 <strong>Hedef Kitle</strong></summary>
+<summary> <strong>Hedef Kitle</strong></summary>
 
 | **Kitle** | **Açıklama** |
 |-----------|--------------|
