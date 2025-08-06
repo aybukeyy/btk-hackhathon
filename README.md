@@ -175,7 +175,134 @@ Lainguage, kullanıcıların seviye bazlı, kişiselleştirilmiş ve AI destekli
 | PB-12    | Quiz modülünün geliştirilmesi                            | Orta        | Kelime tekrarı ve boşluk doldurma testleri ile skor ve cevap anahtarı görüntülendi. |
 | PB-13    | Seviye sistemi (A1–C2) uygulanması                        | Orta        | Tüm içeriklerin CEFR dil seviyelerine göre sınıflandırılması sağlandı. |
 | PB-14    | Çift dilli çeviri sistemi kurulması                      | Orta        | İçeriklerin Türkçe-İngilizce olarak görüntülenmesi sağlandı. |
-| PB-15    | Hash tabanlı kullanıcı şifreleme sistemi                 | Yüksek      | Kullanıcı güvenliği için parola şifreleme sistemi geliştirildi (Flask backend). |
+
 
 </details>
 
+<details>
+<summary> <strong>Sprint 1</strong></summary>
+
+ # Sprint 1: Proje Planlama ve Hazırlık Süreci
+
+Bu sprintte, İngilizce öğrenme asistanı projesinin temelleri atılmış; kullanıcı arayüzü, LLM tabanlı quiz üretimi, hazır kelime listeleri ve kullanıcı koleksiyon sistemi için ilk yapılandırmalar tamamlanmıştır.
+
+## ✅ Tamamlanan Başlıca Çalışmalar
+
+- **Proje fikri belirlendi:** Kullanıcının İngilizce öğrenimini desteklemek amacıyla; kelime listeleri oluşturma, quiz çözme, ve AI destekli içerik üretme özelliklerine sahip bir sistem tasarlandı.
+- **Ekip rolleri tanımlandı:** Scrum Master, Product Owner ve geliştirici ekip üyeleri belirlendi.
+- **Kullanılacak teknolojiler seçildi:** 
+  - Frontend: `Streamlit`
+  - Backend: `Flask`, `Flask-CORS`
+  - Şifreleme: `hashlib (SHA-256)`
+  - AI: `Gemini 1.5`, `LLM Agent yapısı`
+- **UI wireframe taslakları oluşturuldu:** Ana sayfa, konu seçimi ve quiz ekranı gibi temel bileşenler için wireframe'ler oluşturuldu.
+- **Miro üzerinden planlama yapıldı:** Sprint backlog oluşturuldu, görevler dağıtıldı ve tamamlanan işler takip edildi.
+- **Chatbot/Agent modülü prototiplendi:** Kullanıcının seçtiği seviyeye ve listeye göre paragraf üretme ve öğretmen agent mantığı ilk taslak olarak kurgulandı.
+- **Kullanıcı yönetimi CRUD yapısı hazırlandı:** Kullanıcılar için kayıt, giriş, liste oluşturma ve güncelleme işlemleri geliştirildi.
+- **Hash tabanlı şifreleme modülü geliştirildi:** Kullanıcı parolaları SHA256 algoritması ile güvenli şekilde saklanacak biçimde kodlandı.
+- **Hazır kelime listeleri tanımlandı:** Renkler, hayvanlar, okul, giysi gibi kategorilere ait örnek listeler veri tabanına işlendi.
+
+## Sprint 1 Belgeleri ve Ekran Görüntüleri
+
+### Miro Panosu ve Planlama
+- [📌 Miro Sprint Panosu 1](#)
+- [📌 Miro Sprint Panosu 2](#)
+
+### UI Wireframe Tasarımları
+- ![Ana Sayfa](#) Ana Sayfa Wireframe
+- ![Chatbot](#) Chatbot Ekranı
+- ![Konu Seçimi](#) Konu Seçimi
+
+### Takım İletişimi – Toplantılar ve Notlar
+- [💬 WhatsApp Notları 1](#)
+- [💬 WhatsApp Notları 2](#)
+- [💬 Meet Planlama 1](#)
+- [💬 Meet UI Tartışması 2](#)
+
+---
+
+## Sprint 1 Retrospective
+
+### Neler İyi Gitti?
+- Ekip içi iletişim ve görev paylaşımı dengeliydi.
+- Miro sprint yönetimi verimli geçti.
+- Tüm wireframe’ler zamanında ve eksiksiz teslim edildi.
+- Paragraf Agent ve Quiz Agent prototipleri hazırlandı.
+- Kullanıcı CRUD işlemleri tamamlandı.
+- Flask backend + CORS konfigürasyonu başarıyla yapıldı.
+- GitHub klasör yapısı ve commit yönetimi düzenli sürdürüldü.
+
+### Neler Geliştirilebilir?
+- Bazı görevlerde detay eksikleri yaşandı; teknik borç sprint 2’ye devredildi.
+- Daha fazla test verisi ile kullanıcı deneyimi geliştirilebilir.
+
+---
+
+## Gelecek Sprintlerde Hedefler
+
+- AI agent’ların seviye ve liste bazlı daha güçlü çalışmasını sağlamak
+- Quiz sonuçlarının geçmişe kaydedilmesi ve başarı takibi
+- Chatbot etkileşimiyle anlık öneriler (düzeltme, açıklama vb.)
+- Kullanıcının oluşturduğu içeriklerden yeni quiz üretimi
+- UI teması ve erişilebilirlik geliştirmeleri
+
+</details>
+<details>
+ <summary> <strong>Sprint 2</strong></summary>
+# Sprint 2: Etkileşimli Öğrenme ve AI Entegrasyonu
+
+Bu sprintte, sistemin kullanıcı etkileşimini artırmaya yönelik ana modülleri tamamlanmış, AI destekli içerik üretimi aktif hale getirilmiş ve öğretmen arayüzü dahil edilerek çok yönlü bir deneyim sunulmaya başlanmıştır.
+
+---
+
+## ✅ Tamamlanan Başlıca Çalışmalar
+
+- **Giriş / Kayıt sayfası tamamlandı:** Kullanıcı kimlik doğrulama ve giriş sistemleri başarıyla tamamlandı.
+- **Seviye bazlı tema ve gezinme eklendi:** Kullanıcının seviyesine göre içerik erişimi ve temalar dinamik şekilde ayarlandı.
+- **Ana sayfa yönlendirme bağlantıları oluşturuldu:** Collections, Lain Tools vb. içeriklere hızlı erişim sağlandı.
+- **Kelime koleksiyonu sistemi geliştirildi:** Kullanıcılar kendi kelime koleksiyonlarını oluşturabilir hale getirildi.
+- **Hazır kelime listeleri artırıldı:** Sistem içindeki liste havuzu genişletilerek daha fazla kategorik seçim sağlandı.
+- **Quiz modülü tamamlandı:**
+  - Seviye seçimi ve quiz başlatma mantığı geliştirildi.
+  - Quiz sonuç ekranı (doğru/yanlış, skor) oluşturuldu.
+  - "Tekrar dene" ve yeni quiz yönlendirme ekranı tamamlandı.
+  - **Gemini API** ile otomatik quiz sorusu üretimi başarıyla entegre edildi.
+- **Paragraf / Metin Üretici Agent (Paragraf Agent):**
+  - Kullanıcıdan seviye, içerik tipi ve liste seçimi alındı.
+  - Belirtilen kriterlere göre anlamlı paragraf üretildi.
+  - Üretilen metinlerin okunabilirliği artırıldı.
+- **Teacher Agent (AI Öğretmen):**
+  - Öğretmen ekranı geliştirildi.
+  - Konu bazlı içerik anlatımı sağlandı.
+  - Türkçe açıklama modu sisteme eklendi.
+- **Proje teslim süreci başlatıldı:**
+  - README ve teknik dokümantasyon yazıldı.
+  - Proje deploy edilebilir hale getirildi.
+  - Genel sistem testi tamamlandı.
+
+---
+
+## Sprint 2 Belgeleri ve Ekran Görüntüleri
+
+### Miro Panosu ve Planlama
+- [Miro Sprint Panosu 2](#)
+
+### Gerçekleştirilen Arayüzler
+- Ana Sayfa – Tema Geçişi  
+- Quiz Modülü – Başlatma ve Sonuç  
+- Teacher Agent Ekranı  
+- Kullanıcı Koleksiyonları
+
+---
+
+## Sprint 2 Retrospective
+
+### Neler İyi Gitti?
+- Quiz modülü tamamlandı ve Gemini API entegrasyonu başarılı şekilde gerçekleşti.
+- Kullanıcı koleksiyonu ve hazır liste özellikleri kullanıcı deneyimini artırdı.
+- Paragraf Agent ile seviye bazlı anlamlı içerik üretimi sağlandı.
+- Öğretmen arayüzü ilk kez entegre edildi.
+- Tüm sistem genel teste girdi ve deploy hazırlıkları başladı.
+
+
+</details>
