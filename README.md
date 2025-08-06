@@ -11,7 +11,7 @@
 <details>
 <summary> <strong>Proje Tanımı</strong></summary>
 
-inguage, bireylerin İngilizce dil becerilerini geliştirmelerini destekleyen, etkileşimli ve yapay zekâ destekli bir dil öğrenme platformudur. Uygulama, kullanıcıların kişiselleştirilmiş kelime listeleri oluşturmasına, seviye bazlı içeriklerle öğrenmesine ve yapay zekâ öğretmeni ile birebir konuşma pratiği yapmasına olanak tanır. Platformun temel hedefi; kullanıcıya aktif, katılımcı ve kendi hızına uygun bir dil öğrenme deneyimi sunmaktır.
+Lainguage, bireylerin İngilizce dil becerilerini geliştirmelerini destekleyen, etkileşimli ve yapay zekâ destekli bir dil öğrenme platformudur. Uygulama, kullanıcıların kişiselleştirilmiş kelime listeleri oluşturmasına, seviye bazlı içeriklerle öğrenmesine ve yapay zekâ öğretmeni ile birebir konuşma pratiği yapmasına olanak tanır. Platformun temel hedefi; kullanıcıya aktif, katılımcı ve kendi hızına uygun bir dil öğrenme deneyimi sunmaktır.
 
 Lainguage, geleneksel öğrenme araçlarının ötesine geçerek öğreneni merkeze alan bir yapı sunar. Hem başlangıç düzeyinde olanlar hem de ileri seviyede kendini geliştirmek isteyen kullanıcılar için çeşitli araçlar barındırır. Uygulamada bulunan modüller, CEFR (Avrupa Dilleri Ortak Çerçeve Programı) standartlarına göre yapılandırılmıştır.
 
@@ -127,7 +127,7 @@ Proje kapsamı şu bileşenleri içerir:
 
 
 <details>
-<summary>🛠️ <strong>Kullanılan Teknolojiler</strong></summary>
+<summary> <strong>Kullanılan Teknolojiler</strong></summary>
 
 | **Teknoloji / Araç** | **Açıklama** |
 |----------------------|--------------|
@@ -147,17 +147,17 @@ Proje kapsamı şu bileşenleri içerir:
 
 
 <details>
-<summary>🧭 <strong>Miro Link</strong></summary>
+<summary> <strong>Miro Link</strong></summary>
 
  [ https://miro.com/app/board/uXjVJZFdoaY=/?share_link_id=237268478030 ]<!-- Gerçek link varsa buraya koy -->
 
 </details>
 <details>
-<summary>🗂️ <strong>Product Backlog</strong></summary>
+<summary> <strong>Product Backlog</strong></summary>
 
 Lainguage, kullanıcıların seviye bazlı, kişiselleştirilmiş ve AI destekli İngilizce eğitimi alabilecekleri bir platformdur. Bu Product Backlog; projenin temel yapı taşlarını, kullanıcı ihtiyaçlarını ve geliştirilecek modülleri Scrum metodolojisine uygun biçimde listelemektedir.
 
-#### 📋 Product Backlog Tablosu
+####  Product Backlog Tablosu
 
 | **ID**   | **İş Kalemi**                                           | **Öncelik** | **Açıklama** |
 |----------|----------------------------------------------------------|-------------|--------------|
