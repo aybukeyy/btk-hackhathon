@@ -201,22 +201,6 @@ Bu sprintte, İngilizce öğrenme asistanı projesinin temelleri atılmış; kul
 - **Hash tabanlı şifreleme modülü geliştirildi:** Kullanıcı parolaları SHA256 algoritması ile güvenli şekilde saklanacak biçimde kodlandı.
 - **Hazır kelime listeleri tanımlandı:** Renkler, hayvanlar, okul, giysi gibi kategorilere ait örnek listeler veri tabanına işlendi.
 
-## Sprint 1 Belgeleri ve Ekran Görüntüleri
-
-### Miro Panosu ve Planlama
-- [📌 Miro Sprint Panosu 1](#)
-- [📌 Miro Sprint Panosu 2](#)
-
-### UI Wireframe Tasarımları
-- ![Ana Sayfa](#) Ana Sayfa Wireframe
-- ![Chatbot](#) Chatbot Ekranı
-- ![Konu Seçimi](#) Konu Seçimi
-
-### Takım İletişimi – Toplantılar ve Notlar
-- [💬 WhatsApp Notları 1](#)
-- [💬 WhatsApp Notları 2](#)
-- [💬 Meet Planlama 1](#)
-- [💬 Meet UI Tartışması 2](#)
 
 ---
 
@@ -278,19 +262,6 @@ Bu sprintte, sistemin kullanıcı etkileşimini artırmaya yönelik ana modülle
   - README ve teknik dokümantasyon yazıldı.
   - Proje deploy edilebilir hale getirildi.
   - Genel sistem testi tamamlandı.
-
----
-
-## Sprint 2 Belgeleri ve Ekran Görüntüleri
-
-### Miro Panosu ve Planlama
-- [Miro Sprint Panosu 2](#)
-
-### Gerçekleştirilen Arayüzler
-- Ana Sayfa – Tema Geçişi  
-- Quiz Modülü – Başlatma ve Sonuç  
-- Teacher Agent Ekranı  
-- Kullanıcı Koleksiyonları
 
 ---
 
