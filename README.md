@@ -3,8 +3,8 @@
 
 ## 👥 Tobi Ekibi
 - **Aybüke Yıldız** – Scrum Master  
-- **Esra Akgün**  
-- **Zekeriya Barış Atay**  
+- **Zekeriya Barış Atay** - Developer  
+- **Esra Akgün** - LLM optimizing & R&D 
 
 
 <details>
