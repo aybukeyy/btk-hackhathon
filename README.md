@@ -16,7 +16,7 @@ Lainguage, geleneksel öğrenme araçlarının ötesine geçerek öğreneni merk
 
 Kullanıcılar:
 
-Hazır tematik kelime listelerinden faydalanabilir ya da kendi koleksiyonlarını oluşturabilir,
+Hazır tematik kelime listelerinden faydalanabilir ya da kendi listelerini oluşturabilir,
 
 Seçtikleri seviyeye göre (A1-C2) dil bilgisi, kelime ve konuşma içeriklerine ulaşabilir,
 
@@ -25,6 +25,8 @@ AI destekli "Teacher" modülü sayesinde seçtikleri konuda İngilizce-Türkçe 
 Paragraf veya karşılıklı konuşma metinleri üreten "Generator" modülüyle içerik oluşturabilir,
 
 "Quiz" modülü ile öğrendiklerini test edebilir ve gelişimini takip edebilir.
+
+"Trainslate" kısmı ile seviyelere göre ve akademik dil seçeneği seçilerek çeviri yapılabilir.
 
 Platform, öğrenme sürecini hem eğlenceli hem de verimli hale getirirken; kullanıcıya özgü içerik sunumu, çeviri destekleri, seviye takibi ve yapay zekâ ile etkileşim gibi özellikleriyle dijital dil eğitimi alanında bütüncül bir çözüm sunar.
 
